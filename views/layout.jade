@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        if title
+            title= title
+        else
+            title= "Some generic title"
+
+        link(rel='stylesheet', href='/css/normalize.css')
+        link(rel='stylesheet', href='/css/style.css')
+
+        script(type='text/javascript').
+            var config = !{configObj};
+
+    body
+        block content
+
+        script(src="bundle.js", type='text/javascript')

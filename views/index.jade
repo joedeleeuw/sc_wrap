@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    .title
+        h1= title
+        h2= "automation"
+
+    .content
+        p Welcome to #{title}
+        input(type='button', value="Connect to SC")#connect
+
+    #log(style="margin: 10px")

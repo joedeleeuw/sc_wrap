@@ -3,7 +3,7 @@ body {
     padding: 0;
 
     font-size: 100%;
-    font-family: serif; /*"Proxima Nova","Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: serif;
     color: #fff;
     background-color: #1E1E22;
 }
@@ -42,4 +42,43 @@ body {
 
 input {
     color: #000;
+}
+
+.trackList {
+    width: 60%;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.track {
+    position: relative;
+    margin: 10px 0;
+    padding: 5px;
+
+    text-align: center;
+    cursor: pointer;
+
+    background: rgba(0, 0, 0, 0.25) none repeat scroll 0 0;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25) inset;
+}
+
+.author {
+    position: relative;
+    color: #999;
+    width: 100%;
+    left: 5px;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    z-index: 1000;
+}
+
+.track a {
+    display: block;
+    max-width: 60%;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
 }

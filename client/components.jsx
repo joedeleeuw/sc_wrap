@@ -1,15 +1,15 @@
 "use strict";
 
-var React = require("react");
-var ReactDOM = require("react-dom");
+var React = require("react"),
+    ReactDOM = require("react-dom");
 
 var Track = React.createClass({
     render: function () {
         return (
             <div className="track">
-                <h2 className="author">
+                <div className="author">
                     {this.props.username}
-                </h2>
+                </div>
                 <a href={this.props.url}>
                     {this.props.title}
                 </a>

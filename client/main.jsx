@@ -16,7 +16,7 @@ function RenderTracks(tracks) {
 }
 
 window.onload = function () {
-    soundcloud.initialize(config);
+    //soundcloud.initialize(config);
 
     soundcloud.connect().then(function(options) {
        console.log('success', options);

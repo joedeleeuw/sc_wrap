@@ -69,7 +69,7 @@ app.get('/auth', function (req, res) {
 });
 
 //~ api stuff
-app.get('/api', function(req, res) {
+app.get('/api', function (req, res) {
     res.send("todo");
 });
 
